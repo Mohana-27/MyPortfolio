@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+body {
+    background: #f4f7fc;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #08122b;
+}
+
+    nav h2 {
+        color: white;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+
+        nav ul li {
+            margin-left: 40px;
+        }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    min-height: 80vh;
+}
+
+    .hero h1 {
+        font-size: 55px;
+    }
+
+    .hero h2 {
+        font-size: 45px;
+        color: #2563eb;
+    }
+
+    .hero h3 {
+        margin: 15px 0;
+        font-size: 30px;
+    }
+
+    .hero p {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    .hero a {
+        display: inline-block;
+        margin-top: 20px;
+        background: #2563eb;
+        color: white;
+        padding: 12px 30px;
+        text-decoration: none;
+        border-radius: 8px;
+    }
+
+    .hero img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 6px solid #2563eb;
+    }
+/* About Section */
+
+#about {
+    #about {
+        width: 100%;
+        display: block;
+    }
+}
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #2563eb;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about-text p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.about-details {
+    display: flex;
+    justify-content: space-around; /* evenly spaced */
+    gap: 20px; /* spacing between boxes */
+    flex-wrap: wrap; /* allows wrapping on smaller screens */
+    margin-top: 40px;
+}
+
+    .about-details div {
+        background: #f4f7fc;
+        padding: 20px;
+        flex: 1; /* equal width for all boxes */
+        min-width: 250px; /* prevents shrinking too small */
+        margin: 10px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .about-details h3 {
+        color: #2563eb;
+        margin-bottom: 10px;
+    }
+
+    }
+#skills {
+    padding: 80px 60px;
+    background: #f4f7fc;
+}
+
+.skills-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.skill {
+    margin: 25px 0;
+}
+
+    .skill p {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+.bar {
+    width: 100%;
+    height: 18px;
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: #2563eb;
+}
+
+.html {
+    width: 95%;
+}
+
+.css {
+    width: 90%;
+}
+
+.js {
+    width: 80%;
+}
+
+.python {
+    width: 75%;
+}
+
+.sql {
+    width: 85%;
+}
+/* Projects Section */
+
+#projects {
+    padding: 80px 60px;
+    background: #ffffff;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 420px;
+    background: #f8f9fc;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+    .project-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .project-card h3 {
+        color: #2563eb;
+        margin-bottom: 20px;
+    }
+
+    .project-card p {
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+
+    .project-card ul {
+        margin-left: 20px;
+        line-height: 2;
+    }
+
+.tech {
+    margin-top: 20px;
+}
+
+    .tech span {
+        display: inline-block;
+        background: #2563eb;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 20px;
+        margin: 5px;
+    }
+/* CONTACT SECTION */
+
+#contact {
+    padding: 80px 8%;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 500px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 2;
+}
+
+    .contact-container a {
+        display: inline-block;
+        margin-top: 10px;
+        color: white;
+        background: #2563eb;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+    }
